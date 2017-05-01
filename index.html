@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>mi primera pagina web</title>
+    </head>
+    <body>
+       <header>
+                <img src="header.jpg" alt="logo de coderhouse" width="900">
+                <h1 style="color:Black; background: grey;">
+                  <p><b>Futuro programador en desarrollo</b></p>
+                <h1>
+      </header>
+      <a href="#talles">seleccionar talle</a> <!--para transportarse al id de algo en la pagina en este caso a donde esta la palabra talles-->
+      <nav style="color:white; background: #274769;">
+               <p>noticias</a></p>
+               <span><b>contacto</b></span>
+               <div>foro</div>
+      </nav>
+      <aside>
+               <p>columna para notificaciones</p>
+      </aside>
+      <section>
+          <h2>
+             <p style="color:white; background: black;"><b>News</b></p>
+          <h2>
+      <article>
+          <h3>noticia1</h3>
+          <p style="color:black; background: grey;"><small>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+           in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+           sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+           anim id est laborum.</small></p>
+
+        <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+           nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+            qui officia deserunt mollit anim id est laborum.</small></p>
+
+        <p><small>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+          ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+          ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+           cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
+           id est laborum.</small></p>
+
+
+           <ul>
+             <li>lista1</li>
+             <li>lista1</li>
+             <li>lista1</li>
+           </ul>
+           <ol>
+             <li>lista1</li>
+             <li>lista1</li>
+             <li>lista1</li>
+           </ol>
+
+          </article>
+       </section>
+
+       <table class="table">
+               <caption>lista de alumnos</caption>
+               <thead>
+                   <tr>
+                     <th>#</th>
+                     <th>nombre</th>
+                     <th>apellido</th>
+                     <th>edad</th>
+                   </tr>
+             </thead>
+                 <tbody>
+                   <tr><!--fila-->
+                     <th>1</th>
+                     <td>ivan</td><!--encabezado-->
+                     <td>schneider</td>
+                     <td>30</td>
+                   </tr>
+                   <tr>
+                     <th>1</th>
+                     <td>ary</td><!--celda-->
+                     <td>schneider</td>
+                     <td>2</td>
+                   </tr>
+                   <tr>
+                     <th>1</th>
+                     <td>mir</td>
+                     <td>santos</td>
+                     <td>29</td>
+                   </tr>
+             </tbody>
+       </table>
+<form class="" action="index.html" method="post">
+  <fieldset id="talles">
+    <legend>talle de remera</legend>
+    <p>
+      <input type="radio" name="size" value="small" id="S">
+      <label for="S">small</label
+    </p>
+    <p>
+      <input type="radio" name="size" value="medium" id="M">
+      <label for="M">medium</label
+    </p>
+    <p>
+      <input type="radio" name="size" value="large" id="L">
+      <label for="L">large</label
+    </p>
+    <p>
+      <input type="checkbox" name="size" value="large" id="I">
+      <label for="I">checkbox</label
+    </p>
+    <p>
+      <input checked type="checkbox" name="size" value="large" id="I">
+      <label for="I">icheckbox2</label>
+    </p>
+      <fieldset>
+          <p>
+         <label>Nombre:</label>
+         <input type="text" name="nombre" placeholder="nombre">
+         <p><label>Contrasena</label>
+        <input type="password" name="contrasena"></p>
+      </fieldset>
+      <fieldset>
+          <p>
+         <input type="submit" value="Enviar">
+         <input type="reset">
+
+         <input type="button" name="" value="boton"
+         ondblclick="borrarnombre()">
+         <br>
+         <label>Color</label>
+         <input type="color" name="color">
+
+         <br>
+         <br>
+
+         <label for="">fecha</label>
+         <input type="date" name="fecha">
+
+
+         <br>
+         <br>
+         <input type="email" name="email" value="" placeholder="email">
+
+         <br>
+         <input type="tel" placeholder="phone">
+         <br>
+         <br>
+
+         <input type="number" name="number">
+
+         <br>
+         <br>
+         <input type="search" name="busqueda">
+
+
+      </fieldset>
+
+    <p><input</p>
+  </fieldset>
+    <fieldset>
+    <select name="talles">
+      <optgroup label="adultos">
+        <option value="L">large</option>
+        <option value="M">Medium</option>
+        <option value="S">Small</option>
+      </optgroup>
+      <optgroup label="ninos">
+        <option value="L">large</option>
+        <option value="M" selected>Medium</option>
+        <option value="S">Small</option>
+      </optgroup>
+    </select>
+
+<textarea name="texto" rows="8" cols="80" placeholder="escribir..." maxlength="500"></textarea>
+    </fieldset>
+</form>
+
+<footer>
+    <img src="footer.jpg" />
+    <h4 style="color:white; background: grey;">
+      <a href="https://www.google.com.ar/intl/es/policies/privacy/?fg=1" target="_blank"><p><b>copyright<u>2017</u></b></p></a>
+    </h4>
+</footer>
+    </body>
+</html>
